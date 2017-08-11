@@ -7,14 +7,14 @@
   </div>
   <div class="form-group">
     <label for="question">Question:</label>
-    {{input type="text" class="form-control" value=question.question id="question"}}
+    {{input type="text" class="form-control" value=question.query id="query"}}
   </div>
   <div class="form-group">
     <label for="notes">Notes:</label>
     {{textarea class="form-control" rows="5" value=question.notes id="notes" placeholder="Accepts valid html!"}}
   </div>
 </form>
-<button {{action 'update'}} form="questionForm">Save</button>
+<button form="questionForm" {{action 'update' question}}>Update</button>
 {{else}}
   <button {{action 'updateQuestionFormShow'}}>Update</button>
 {{/if}}
