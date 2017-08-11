@@ -3,6 +3,11 @@
     <p>{{question.query}}</p>
     <footer>{{question.author}}</footer>
   </blockquote>
+  {{#if thisShouldShow}}
+  <div class="well">
+    <p>{{{question.notes}}}</p>
+  </div>
+  {{/if}}
   {{update-question question=question updateQuestion="updateQuestion"}}
   <button {{action 'delete' question}}>Delete</button>
 </div>
