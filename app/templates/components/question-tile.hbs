@@ -1,9 +1,17 @@
 <div class="well">
   <blockquote>
-    <p>{{#link-to 'question' question.id}}{{question.query}}{{/link-to}}</p>
+    <p>
+      {{#if showLink}}
+        {{#link-to 'question' question.id}}
+          {{question.query}}
+        {{/link-to}}
+      {{else}}
+        {{question.query}}
+      {{/if}}
+    </p>
     <footer>{{question.author}}</footer>
   </blockquote>
-  {{#if thisShouldShow}}
+  {{#if showNotes}}
   <div class="well">
     <p>{{{question.notes}}}</p>
   </div>
