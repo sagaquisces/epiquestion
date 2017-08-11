@@ -24,6 +24,8 @@ App is a crowdsourced repository of questions submitted by developers and answer
   * Component `new-question` to toggle form for adding a question.
   * Component `question-tile` to view question on index page or detail page.
   * Component `update-question` to re-save any question with changes.
+  * Model `question` has the following properties: an author, a query, notes, and any number of `answers` in a one-to-many relationship
+  * Model `answer` has the following properties: an author, and an answer.
 
 4. Addons
   * Bootstrap
