@@ -1,16 +1,30 @@
 # epiquestion
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+App is a crowdsourced repository of questions submitted by developers and answered by other developers.
 
-## Prerequisites
+##Planning
 
-You will need the following things properly installed on your computer.
+1. Configuration/dependencies
+  * [Git](https://git-scm.com/)
+  * [Node.js](https://nodejs.org/) (with NPM)
+  * [Ember CLI](https://ember-cli.com/)
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+2. Specs
+  * Form for question, author and additional notes. Output: In a list on the index page with a link to a detail page that has all the answers.
+  * Form for answers on question page (/question/question_id). Output: answer appears below question in order received.
+  * All questions will appear on homepage with just question and author.
+  * User can edit questions.
+  * User can add answers to questions.
+
+3. Integration
+  * Initial routes or index pages with all dependencies in Controller/index.html head
+  * Template/html page for About.
+  * Template/html page for Contact
+  * Template/html page for Question (`/question/:question_id`)
+
+4. Addons
+  * Bootstrap
+  * Some custom styling in `/app/styles/app.css`
 
 ## Installation
 
@@ -36,15 +50,3 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
