@@ -23,10 +23,12 @@ App is a crowdsourced repository of questions submitted by developers and answer
   * Template/html page for Question (`/question/:question_id`)
   * Component `new-question` to toggle form for adding a question.
   * Component `question-tile` to view question on index page or detail page.
+  * Component `update-question` to re-save any question with changes.
 
 4. Addons
   * Bootstrap
-  * Some custom styling in `/app/styles/app.css`
+  * Sass
+  * Some custom styling in `/app/styles/app.scss`
 
 ## Installation
 

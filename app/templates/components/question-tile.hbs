@@ -3,5 +3,6 @@
     <p>{{question.question}}</p>
     <footer>{{question.author}}</footer>
   </blockquote>
+  {{update-question question=question updateQuestion="updateQuestion"}}
   <button {{action 'delete' question}}>Delete</button>
 </div>
