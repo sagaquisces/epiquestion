@@ -1,7 +1,6 @@
 <h1>Welcome to Epiquestion <small>...a place for developers.</small></h1>
+<hr>
 
-<ul>
-  {{#each model as |question|}}
-    {{question-tile question=question}}
-  {{/each}}
-</ul>
+{{#each model as |question|}}
+  {{question-tile question=question}}
+{{/each}}
