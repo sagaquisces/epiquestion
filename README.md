@@ -10,7 +10,7 @@ App is a crowdsourced repository of questions submitted by developers and answer
   * [Ember CLI](https://ember-cli.com/)
 
 2. Specs
-  * Form for question, author and additional notes. Output: In a list on the index page with a link to a detail page that has all the answers.
+  * Form for question, author and additional notes. Output: In a list on the index page with a link to a detail page that has the notes (which can include HTML tags) and all the answers.
   * Form for answers on question page (/question/question_id). Output: answer appears below question in order received.
   * All questions will appear on homepage with just question and author.
   * User can edit questions.
