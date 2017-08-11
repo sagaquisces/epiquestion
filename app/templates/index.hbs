@@ -1,6 +1,10 @@
 <h1>Welcome to Epiquestion <small>...a place for developers.</small></h1>
 <hr>
 
+{{new-question saveQuestion="saveQuestion"}}
+
+<hr>
+
 {{#each model as |question|}}
   {{question-tile question=question destroyQuestion="destroyQuestion"}}
 {{/each}}

@@ -17,10 +17,12 @@ App is a crowdsourced repository of questions submitted by developers and answer
   * User can add answers to questions.
 
 3. Integration
-  * Initial routes or index pages with all dependencies in Controller/index.html head
+  * Initial routes or index pages with all dependencies in index.html head
   * Template/html page for About.
   * Template/html page for Contact
   * Template/html page for Question (`/question/:question_id`)
+  * Component `new-question` to toggle form for adding a question.
+  * Component `question-tile` to view question on index page or detail page.
 
 4. Addons
   * Bootstrap
