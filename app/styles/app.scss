@@ -1,5 +1,10 @@
 $primary-color: #ddd999;
+$secondary-color: #c3dd99;
 
 .navbar {
 	background-color: $primary-color;
+}
+
+.well .well {
+	background-color: $secondary-color;
 }

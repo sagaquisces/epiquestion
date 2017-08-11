@@ -1,6 +1,6 @@
 <div class="well">
   <blockquote>
-    <p>{{question.query}}</p>
+    <p>{{#link-to 'question' question.id}}{{question.query}}{{/link-to}}</p>
     <footer>{{question.author}}</footer>
   </blockquote>
   {{#if thisShouldShow}}
