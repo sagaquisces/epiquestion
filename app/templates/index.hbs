@@ -1,0 +1,7 @@
+<h1>Welcome to Epiquestion <small>...a place for developers.</small></h1>
+
+<ul>
+  {{#each model as |question|}}
+    <li>{{question.author}} - {{question.question}}</li>
+  {{/each}}
+</ul>
